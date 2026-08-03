@@ -57,13 +57,103 @@ internship_jobs = [
     if is_internship(job)
 ]
 
+NON_TECHNICAL_KEYWORDS = (
+    "sales",
+    "marketing",
+    "social media",
+    "customer advocacy",
+    "customer services",
+    "legal",
+    "finance",
+    "recruiting",
+    "human resources",
+    "business development",
+    "communications"
+)
+
+
+def classify_role(job):
+    title = job["title"].lower()
+
+    if any(keyword in title for keyword in NON_TECHNICAL_KEYWORDS):
+        return "Non-technical"
+
+    if any(keyword in title for keyword in (
+        "machine learning",
+        "artificial intelligence",
+        "generative ai",
+        "data science"
+    )):
+        return "AI/ML"
+
+    if "research engineer" in title:
+        return "Research engineering"
+
+    if any(keyword in title for keyword in (
+        "software",
+        "developer",
+        "backend",
+        "frontend",
+        "full stack",
+        "full-stack"
+    )):
+        return "Software engineering"
+
+    if any(keyword in title for keyword in (
+        "network",
+        "security",
+        "cyber",
+        "cloud",
+        "platform",
+        "infrastructure",
+        "systems"
+    )):
+        return "Infrastructure and security"
+
+    if any(keyword in title for keyword in (
+        "data",
+        "analytics"
+    )):
+        return "Data"
+
+    return "Other"
+
+for job in internship_jobs:
+    job["category"] = classify_role(job)
+
+
+TECHNICAL_CATEGORIES = {
+    "AI/ML",
+    "Research engineering",
+    "Software engineering",
+    "Infrastructure and security",
+    "Data"
+}
+
+technical_internships = [
+    job
+    for job in internship_jobs
+    if job["category"] in TECHNICAL_CATEGORIES
+]
+#_______________________________________TEST______________________________________#
+
 print(f"Downloaded {len(raw_jobs)} jobs")
 print(f"Normalised {len(normalised_jobs)} jobs")
 print(f"Found {len(internship_jobs)} possible internships\n")
 
 for job in internship_jobs:
-    print(job["company"])
-    print(job["title"])
-    print(job["location"])
-    print(job["application_url"])
-    print()
+    if job not in technical_internships:
+        print(job["company"])
+        print(job["title"])
+        print(job["location"])
+        print(job["application_url"])
+        print()
+
+
+# for job in technical_internships:
+#     print(f'{job["company"]} — {job["category"]}')
+#     print(job["title"])
+#     print(job["location"])
+#     print(job["application_url"])
+#     print()
+
