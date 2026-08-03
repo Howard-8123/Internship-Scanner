@@ -1,4 +1,5 @@
 import requests
+import re
 
 BOARD_TOKEN = "cloudflare"
 COMPANY_NAME = "Cloudflare"
@@ -28,7 +29,21 @@ def normalise_greenhouse_job(raw_job, company_name):
         "application_url": raw_job.get("absolute_url", "")
     }
 
+INTERNSHIP_PATTERNS = (
+    r"\bintern(ship)?s?\b",
+    r"\bplacement\b",
+    r"\bco-?op\b",
+    r"\bworking student\b"
+)
 
+
+def is_internship(job):
+    title = job["title"]
+
+    return any(
+        re.search(pattern, title, re.IGNORECASE)
+        for pattern in INTERNSHIP_PATTERNS
+    )
 raw_jobs = fetch_greenhouse_jobs(BOARD_TOKEN)
 
 normalised_jobs = [
@@ -36,10 +51,17 @@ normalised_jobs = [
     for raw_job in raw_jobs
 ]
 
-print(f"Downloaded {len(raw_jobs)} jobs")
-print(f"Normalised {len(normalised_jobs)} jobs\n")
+internship_jobs = [
+    job
+    for job in normalised_jobs
+    if is_internship(job)
+]
 
-for job in normalised_jobs[:5]:
+print(f"Downloaded {len(raw_jobs)} jobs")
+print(f"Normalised {len(normalised_jobs)} jobs")
+print(f"Found {len(internship_jobs)} possible internships\n")
+
+for job in internship_jobs:
     print(job["company"])
     print(job["title"])
     print(job["location"])
