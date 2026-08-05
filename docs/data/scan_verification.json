@@ -1,0 +1,8 @@
+{
+  "captured_at": "2026-08-05",
+  "source": "Real semantic-only Cloudflare scan using BAAI/bge-base-en-v1.5",
+  "downloaded_jobs": 291,
+  "target_country_jobs_evaluated": 11,
+  "retained_recommendations": 2,
+  "llm_provider": "none"
+}

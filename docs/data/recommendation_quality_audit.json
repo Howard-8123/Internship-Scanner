@@ -1,0 +1,120 @@
+{
+  "source": "Cloudflare Greenhouse jobs evaluated with BAAI/bge-base-en-v1.5",
+  "before_cache_version": "1:cosine-v1",
+  "after_cache_version": "2:cosine-v2",
+  "recommendation_threshold": 0.4,
+  "internship_margin_threshold": -0.03,
+  "technical_margin_threshold": 0.02,
+  "roles": [
+    {
+      "title": "Research Engineer Intern",
+      "before_score": 0.4379,
+      "before_label_count": 17,
+      "after_score": 0.4560,
+      "after_label_count": 3,
+      "after_accepted": true,
+      "internship_margin": 0.0647,
+      "technical_margin": 0.1193
+    },
+    {
+      "title": "Professional Services Intern",
+      "before_score": 0.4374,
+      "before_label_count": 14,
+      "after_score": 0.4588,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.0287,
+      "technical_margin": -0.0084
+    },
+    {
+      "title": "AI Innovation Service Sales Intern",
+      "before_score": 0.4288,
+      "before_label_count": 9,
+      "after_score": 0.4725,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.0002,
+      "technical_margin": -0.0027
+    },
+    {
+      "title": "Network Strategy Intern",
+      "before_score": 0.4286,
+      "before_label_count": 11,
+      "after_score": 0.4499,
+      "after_label_count": 3,
+      "after_accepted": true,
+      "internship_margin": 0.0210,
+      "technical_margin": 0.0320
+    },
+    {
+      "title": "Technical Account Manager",
+      "before_score": 0.4228,
+      "before_label_count": 18,
+      "after_score": 0.4156,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.1213,
+      "technical_margin": -0.0156
+    },
+    {
+      "title": "Business Development Representative",
+      "before_score": 0.4157,
+      "before_label_count": 16,
+      "after_score": 0.4357,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.1284,
+      "technical_margin": -0.0948
+    },
+    {
+      "title": "Network Acquisition Manager",
+      "before_score": 0.3932,
+      "before_label_count": 6,
+      "after_score": 0.4148,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.0694,
+      "technical_margin": 0.0154
+    },
+    {
+      "title": "Litigation Counsel",
+      "before_score": 0.3888,
+      "before_label_count": 4,
+      "after_score": 0.4163,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.1240,
+      "technical_margin": -0.0214
+    },
+    {
+      "title": "Presales Customer Engineer, Enterprise",
+      "before_score": 0.3820,
+      "before_label_count": 4,
+      "after_score": 0.4463,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.0951,
+      "technical_margin": -0.0098
+    },
+    {
+      "title": "Principal Solutions Architect",
+      "before_score": 0.3779,
+      "before_label_count": 3,
+      "after_score": 0.4384,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.1009,
+      "technical_margin": 0.0162
+    },
+    {
+      "title": "Presales Customer Engineer",
+      "before_score": 0.3775,
+      "before_label_count": 3,
+      "after_score": 0.4439,
+      "after_label_count": 0,
+      "after_accepted": false,
+      "internship_margin": -0.0973,
+      "technical_margin": -0.0059
+    }
+  ]
+}

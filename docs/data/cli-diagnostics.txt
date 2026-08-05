@@ -1,0 +1,18 @@
+INFO Intelligence mode: semantic-only (LLM disabled)
+INFO Discovered 1 companies
+INFO Downloaded 291 jobs
+INFO Retained 2 UK/Hong Kong internships
+INFO Cloudflare — Research Engineer Intern (Fall 2026) [greenhouse]
+Research engineering
+score=0.456; labels=Security, Cloud, Research
+London, United Kingdom (office)
+https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407
+
+INFO signals: semantic=0.6136 internship=0.5305 permanent=0.4659 internship_margin=0.0647 technical=0.5623 nontechnical=0.4430 technical_margin=0.1193 ai=0.5428 llm_confidence=disabled llm_internship=disabled
+INFO Cloudflare — Network Strategy Intern (Fall 2026) [greenhouse]
+Infrastructure and security
+score=0.450; labels=Cloud, Security, Infrastructure
+London, United Kingdom (office)
+https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027
+
+INFO signals: semantic=0.5853 internship=0.5578 permanent=0.5368 internship_margin=0.0210 technical=0.5335 nontechnical=0.5015 technical_margin=0.0320 ai=0.5279 llm_confidence=disabled llm_internship=disabled

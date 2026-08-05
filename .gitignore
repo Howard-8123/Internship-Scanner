@@ -1,1 +1,15 @@
 .idea/
+.env
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
