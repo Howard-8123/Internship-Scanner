@@ -1,0 +1,258 @@
+[
+  {
+    "id": "positive-ml-intern",
+    "title": "Machine Learning Engineer Intern",
+    "description": "Twelve-week university internship. Train and evaluate ranking models in Python and PyTorch, improve feature pipelines, and present experiment results to ML engineers.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Machine Learning"]
+  },
+  {
+    "id": "positive-research-intern",
+    "title": "Research Engineer Intern",
+    "description": "Student research internship investigating new privacy-preserving network algorithms. Design experiments, implement prototypes, analyze results, and contribute to a research publication.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Research"]
+  },
+  {
+    "id": "positive-llm-intern",
+    "title": "Large Language Model Intern",
+    "description": "Internship for a current computer science student. Fine-tune language models, build retrieval augmented generation evaluations, and measure model quality and safety.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["LLMs"]
+  },
+  {
+    "id": "positive-nlp-intern",
+    "title": "NLP Engineering Intern",
+    "description": "Summer internship developing text classification, entity extraction, and semantic search models. Implement experiments in Python and evaluate language datasets.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["NLP"]
+  },
+  {
+    "id": "positive-vision-intern",
+    "title": "Computer Vision Intern",
+    "description": "Student internship building image segmentation and object detection models for manufacturing inspection. Train neural networks and analyze visual datasets.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Computer Vision", "Deep Learning"]
+  },
+  {
+    "id": "positive-robotics-intern",
+    "title": "Robotics Software Intern",
+    "description": "University placement implementing robot perception and motion-planning software. Integrate sensors, test autonomous navigation, and write C++ control code.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Robotics"]
+  },
+  {
+    "id": "positive-data-intern",
+    "title": "Data Engineering Intern",
+    "description": "Six-month student placement building batch and streaming data pipelines, maintaining warehouse models, and improving ETL observability with Python and SQL.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Data Engineering"]
+  },
+  {
+    "id": "positive-backend-intern",
+    "title": "Backend Software Engineer Intern",
+    "description": "Summer internship writing server-side APIs and distributed services in Go. Design database queries, add automated tests, and review production telemetry.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Backend"]
+  },
+  {
+    "id": "positive-frontend-intern",
+    "title": "Frontend Engineer Intern",
+    "description": "Student internship building accessible React and TypeScript interfaces. Implement browser features, write component tests, and improve web performance.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Frontend"]
+  },
+  {
+    "id": "positive-fullstack-intern",
+    "title": "Full Stack Developer Intern",
+    "description": "University co-op implementing React user interfaces and Python API services. Own features across the browser, backend, and relational database.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Full Stack"]
+  },
+  {
+    "id": "positive-cloud-intern",
+    "title": "Cloud Platform Intern",
+    "description": "Technical internship developing cloud-native services, container scheduling features, and distributed platform automation using Go and Kubernetes.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Cloud"]
+  },
+  {
+    "id": "positive-infrastructure-intern",
+    "title": "Infrastructure Engineering Intern",
+    "description": "Student placement improving Linux networking systems, service reliability, capacity tooling, and distributed infrastructure performance.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Infrastructure"]
+  },
+  {
+    "id": "positive-security-intern",
+    "title": "Security Engineering Intern",
+    "description": "Cybersecurity internship building threat-detection tooling, reviewing application vulnerabilities, and automating network security investigations in Python.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Security"]
+  },
+  {
+    "id": "positive-devops-intern",
+    "title": "DevOps Intern",
+    "description": "Student internship improving CI/CD pipelines, deployment automation, service monitoring, and infrastructure-as-code used by engineering teams.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["DevOps"]
+  },
+  {
+    "id": "positive-embedded-intern",
+    "title": "Embedded Software Intern",
+    "description": "Engineering internship writing C firmware and device drivers for a real-time sensor platform. Debug hardware interfaces and create automated tests.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Embedded"]
+  },
+  {
+    "id": "positive-mobile-intern",
+    "title": "Mobile Application Intern",
+    "description": "Summer software internship implementing native Android features in Kotlin, integrating APIs, and writing mobile unit and user-interface tests.",
+    "expected_is_internship": true,
+    "expected_is_technical": true,
+    "expected_labels": ["Mobile"]
+  },
+  {
+    "id": "negative-sales-intern",
+    "title": "Sales Intern",
+    "description": "Student internship qualifying sales leads, updating CRM records, preparing account plans, and supporting revenue targets. No programming responsibilities.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-ai-sales-intern",
+    "title": "AI Innovation Intern - Service Sales",
+    "description": "Commercial internship creating sales presentations for AI service offerings, researching prospects, and helping account executives close opportunities. This role does not build AI models or software.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-marketing-intern",
+    "title": "Technology Marketing Intern",
+    "description": "Internship planning campaigns for cloud products, writing social media copy, coordinating events, and reporting marketing engagement metrics. No engineering work.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-legal-intern",
+    "title": "Legal Intern",
+    "description": "Student placement conducting legal research, reviewing commercial contracts, organizing case files, and supporting counsel with regulatory questions.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-finance-intern",
+    "title": "Finance Intern",
+    "description": "University internship assisting with budgeting, financial forecasts, invoice reconciliation, and monthly management reporting.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-recruiting-intern",
+    "title": "Technical Recruiting Intern",
+    "description": "Internship sourcing software candidates, scheduling interviews, maintaining applicant records, and supporting recruiting events. The role recruits engineers but does not write software.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-professional-services-intern",
+    "title": "Professional Services Intern",
+    "description": "Customer services internship coordinating onboarding plans, documenting customer requirements, preparing presentations, and tracking service delivery. No hands-on engineering duties.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-business-development",
+    "title": "Business Development Representative",
+    "description": "Permanent sales role generating pipeline, prospecting enterprise accounts, qualifying opportunities, and meeting quarterly revenue goals for cloud products.",
+    "expected_is_internship": false,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-account-manager",
+    "title": "Technical Account Manager",
+    "description": "Permanent customer account role owning executive relationships, coordinating support escalations, managing renewals, and advising customers about technology products without implementing software.",
+    "expected_is_internship": false,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-permanent-software",
+    "title": "Senior Backend Software Engineer",
+    "description": "Permanent experienced-hire position designing Go services and distributed databases. Requires six years of production engineering experience.",
+    "expected_is_internship": false,
+    "expected_is_technical": true,
+    "expected_labels": ["Backend"]
+  },
+  {
+    "id": "negative-permanent-ml",
+    "title": "Staff Machine Learning Engineer",
+    "description": "Permanent staff-level position leading production ML architecture and mentoring engineers. Requires eight years of machine learning experience.",
+    "expected_is_internship": false,
+    "expected_is_technical": true,
+    "expected_labels": ["Machine Learning"]
+  },
+  {
+    "id": "negative-graduate-permanent",
+    "title": "Graduate Software Engineer",
+    "description": "Permanent full-time entry-level employment beginning after graduation. Build Java services as a salaried employee; this is not an internship or placement.",
+    "expected_is_internship": false,
+    "expected_is_technical": true,
+    "expected_labels": ["Backend"]
+  },
+  {
+    "id": "negative-product-manager",
+    "title": "AI Product Manager",
+    "description": "Permanent product role defining roadmap and commercial requirements for AI features, coordinating stakeholders, and prioritizing delivery. No model development or programming responsibilities.",
+    "expected_is_internship": false,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-counsel",
+    "title": "Technology Litigation Counsel",
+    "description": "Permanent legal position managing litigation, advising on regulatory risk, and coordinating external law firms for a software company.",
+    "expected_is_internship": false,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-solutions-architect",
+    "title": "Principal Solutions Architect",
+    "description": "Permanent senior customer advisory role leading pre-sales workshops and solution proposals. Requires ten years of enterprise consulting experience and does not own production software.",
+    "expected_is_internship": false,
+    "expected_is_technical": false,
+    "expected_labels": []
+  },
+  {
+    "id": "negative-customer-success",
+    "title": "Customer Success Intern",
+    "description": "Student internship tracking customer adoption, arranging business reviews, documenting feedback, and helping customers use a software platform. No coding duties.",
+    "expected_is_internship": true,
+    "expected_is_technical": false,
+    "expected_labels": []
+  }
+]

@@ -1,4 +1,4 @@
-"""Backward-compatible entry point for the internship scanner."""
+"""Run the scanner with ``python -m internship_scanner``."""
 
 from internship_scanner.cli import main
 
