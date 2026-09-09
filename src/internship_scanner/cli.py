@@ -5,6 +5,7 @@ import logging
 from collections.abc import Sequence
 from pathlib import Path
 
+from internship_scanner import __version__
 from internship_scanner.aggregation import AggregationResult
 from internship_scanner.bootstrap import build_engine, build_quality_evaluator
 from internship_scanner.config import Settings
@@ -81,6 +82,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="internship-scanner",
         description="Find and rank technical internships from configured ATS boards.",
+    )
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {__version__}",
     )
     parser.add_argument(
         "--diagnostics",

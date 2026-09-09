@@ -86,6 +86,19 @@ def test_help_exits_before_initializing_the_application(
     settings.assert_not_called()
 
 
+def test_version_exits_before_initializing_the_application(
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    with (
+        patch("internship_scanner.cli.Settings.from_env") as settings,
+        pytest.raises(SystemExit) as exit_info,
+    ):
+        main(["--version"])
+    assert exit_info.value.code == 0
+    assert capsys.readouterr().out == "internship-scanner 0.3.0\n"
+    settings.assert_not_called()
+
+
 def test_parser_rejects_invalid_top_k() -> None:
     with pytest.raises(SystemExit):
         build_parser().parse_args(["--top-k", "0"])
